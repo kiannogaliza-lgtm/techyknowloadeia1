@@ -25,7 +25,7 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-COPY --from=node:20 /usr/local/bin/node /usr/local/bin/node
+COPY --from=node:20 /usr/local/bin /usr/local/bin
 COPY --from=node:20 /usr/local/lib/node_modules /usr/local/lib/node_modules
 
 RUN node --version && npm ci && npm run build
