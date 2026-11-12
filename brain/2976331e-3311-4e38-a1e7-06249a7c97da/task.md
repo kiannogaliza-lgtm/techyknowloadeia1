@@ -1,0 +1,8 @@
+- [ ] Update `medlink_database.sql` schema and seed data
+- [ ] Update `users` table migration
+- [ ] Update `User.php` model fillable properties
+- [ ] Update `DatabaseSeeder.php`
+- [ ] Update `AuthController.php` to include `register` method
+- [ ] Update `routes/web.php` for registration POST route
+- [ ] Update `register.blade.php` UI and form fields
+- [ ] Update dashboard views to display `first_name` and `last_name`
